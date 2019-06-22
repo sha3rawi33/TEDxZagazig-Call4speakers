@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEDxZagazig | SPEAKER CALL</title>
+
+
+    <link rel="stylesheet" href="./res/css/speakercall.css">
+    <link href="https://fonts.googleapis.com/css?family=Armata" rel="stylesheet">
+
+
+</head>
+
+<body> 
+                
+                <img class="centerimg" src="./res/img/call-logo.png" width="1000px">
+                <img class="centerimg" src="./res/img/speakercall.jpg">
+                <br>
+            
+<div class="container">
+  
+
+    <form class="gform" method="POST"
+          action="#">
+       <div class="form-elements">
+        <ul class="flex-outer">
+            <li>
+                <label for="full_name" style="font-family: 'Armata', sans-serif;">Full Name *</label>
+                <input id="full_name" type=text name="full_name" required placeholder="eg: Ahmed Saad Sharawi" style="font-family: 'Armata', sans-serif;"/>
+            </li>
+            <li>
+                <label for="email" style="font-family: 'Armata', sans-serif;">Email Address *</label>
+                <input id="email" name="email" type="email" value=""
+                       required placeholder="name@something.com" style="font-family: 'Armata', sans-serif;"/>
+                <span class="email-invalid" style="display:none">
+          Must be a valid email address</span>
+                <!--TODO : check this invalid checking-->
+            </li>
+            <li>
+                <label for="contact_no"style="font-family: 'Armata', sans-serif;">Contact Number *</label>
+                <input id="contact_no" name="contact_no" type="number" value=""
+                      maxlength="10" required placeholder="eg: 01116913242" style="font-family: 'Armata', sans-serif;"/>
+                <!--TODO : type for number-->
+            </li>
+            <li>
+                <label for="address" style="font-family: 'Armata', sans-serif;">Address *</label>
+                <textarea id="address" name="address" rows="5"
+                          required style="font-family: 'Armata', sans-serif;" placeholder="eg: Zagazig, Alsharqiya, Egypt"></textarea>
+            </li>
+            <li>
+                <label for="field" style="font-family: 'Armata', sans-serif;">Field Of Expertise *</label>
+                <input id="field" style="font-family: 'Armata', sans-serif;" name="field" required placeholder="eg: Technical " />
+            </li>
+            <li>
+                <label for="brief_description" style="font-family: 'Armata', sans-serif;">What is the TED/TEDx Talk that had the most impact on you?
+Tell us about it and make sure to attach a link. *</label>
+                <textarea id="best_talk" style="font-family: 'Armata', sans-serif;" name="best_talk" required rows="10" placeholder="Put a great talk here and add some reasons why you liked it."></textarea>
+            </li>
+            <li>
+                <label for="topic" style="font-family: 'Armata', sans-serif;">What are you really proud of?
+Tell us everything you think we need to know about you. *</label>
+                <textarea id="power" style="font-family: 'Armata', sans-serif;" name="power" required rows="10" required placeholder="Tell us some of your superpowers"></textarea>
+            </li>
+
+            <li>
+                <label for="topic" style="font-family: 'Armata', sans-serif;">What are you looking forward to when you speak at TEDxZagazig? *</label>
+                <textarea id="goal" style="font-family: 'Armata', sans-serif;" name="goal" required rows="10" required placeholder="Some of your great goals with TEDxZagazig"></textarea>
+            </li>
+
+            <li>
+                <label for="topic" style="font-family: 'Armata', sans-serif;">What value you think you will attain, and what value you think will add ? *</label>
+                <textarea id="value" style="font-family: 'Armata', sans-serif;" name="value" required rows="10" required placeholder="mentions some of your great skills that you will add to us."></textarea>
+            </li>
+
+            <li>
+                <label for="topic" style="font-family: 'Armata', sans-serif;">What do you stand for in life ? *</label>
+                <textarea id="life_stand" style="font-family: 'Armata', sans-serif;" name="life_stand" required rows="10" required placeholder="Tell us some of your superpowers"></textarea>
+            </li>
+
+            <li>
+                <label for="topic" style="font-family: 'Armata', sans-serif;">What your idea is all about? *</label>
+                <textarea id="idea" style="font-family: 'Armata', sans-serif;" name="idea" required rows="10" required placeholder="Tell us about your great talk."></textarea>
+            </li>
+
+            <li>
+                <label for="topic" style="font-family: 'Armata', sans-serif;">To what extent is your idea worth spreading, and why ?
+ *</label>
+                <textarea id="worth" style="font-family: 'Armata', sans-serif;" name="worth" required rows="10" required placeholder="Great ideas have great reasons"></textarea>
+            </li>
+
+                        <li>
+                <label for="topic" style="font-family: 'Armata', sans-serif;">Give your talk a title. *</label>
+                <textarea id="idea_title" style="font-family: 'Armata', sans-serif;" name="idea_title" required rows="10" required placeholder="Why to hire a hacker"></textarea>
+            </li>
+
+                        <li>
+                <label for="topic" style="font-family: 'Armata', sans-serif;">Can you summarize it briefly? *</label>
+                <textarea id="conclusion" style="font-family: 'Armata', sans-serif;" name="conclusion" required rows="10" required placeholder="conclude your talk in a few lines"></textarea>
+            </li>
+
+                                    <li>
+                <label for="topic" style="font-family: 'Armata', sans-serif;">Write a short abstract about the talk. Be sure to make it intriguine and thought provoking. *</label>
+                <textarea id="abstract" style="font-family: 'Armata', sans-serif;" name="abstract" required rows="10" required placeholder="write a short abstract here"></textarea>
+            </li>
+
+            <li>
+                <label for="tedx_past" style="font-family: 'Armata', sans-serif;">Have you Ever been on a stage? *</label>
+                <div id="tedx_past" required style="font-family: 'Armata', sans-serif;">
+                    <input type="radio" name="tedx_past" value="Yes"> Yes<br>
+                    <input type="radio" name="tedx_past" value="No"> No
+                </div>
+            </li>
+
+                                    <li>
+                <label for="topic" style="font-family: 'Armata', sans-serif;">Please provide us links, resources featuring you presenting something to the world. That helps us understand you better. *</label>
+                <textarea id="links" style="font-family: 'Armata', sans-serif;" name="links" required rows="10" required placeholder="conclude your talk in a few lines"></textarea>
+            </li>
+
+                                    <li>
+                <label for="topic" style="font-family: 'Armata', sans-serif;">Do you publish your thoughts anywhere?
+Blog, Soundcloud account, Facebook page? Please, provide us with links. *</label>
+                <textarea id="social" style="font-family: 'Armata', sans-serif;" name="social" required rows="10" required placeholder="conclude your talk in a few lines"></textarea>
+            </li>
+
+     <li>
+                <button type="submit">Submit</button>
+            </li>
+        </ul>
+       </div>
+    </form>
+
+</div>
+
+</body>
+</html>
